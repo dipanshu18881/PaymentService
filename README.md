@@ -1,3 +1,10 @@
+
+### PaymentService
+- createPaymentLink
+- getPaymentStatus
+-  handleWebhookEvent
+
+
 1. User -> OrderService
 order is created
 
@@ -17,8 +24,3 @@ check the status of Payment
 5. PaymentGateway -> PaymentService
 webhook URL
 
-
-PaymentService
-- createPaymentLink
-- getPaymentStatus
-- handleWebhookEvent
